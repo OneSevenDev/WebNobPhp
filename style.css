@@ -1,0 +1,650 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #F2FFFC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #DB2C09;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #003399;
+}
+label{
+ width: 50px;
+
+}
+h1 {
+	font-size: 2em;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 2.8em;
+	
+}
+
+h3 {
+	font-size: 1.6em;
+}
+#ok{
+  background: #B1F2CA;
+  color: #768A7E;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+#error{
+  background: #F57F81;
+  color: #768A7E;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #003399;
+}
+
+a:hover {
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header-wrapper {
+	height: 100px;
+	background: #003399;
+	border-bottom: 10px solid #00CC99;
+}
+
+#header {
+	width: 950px;
+	margin: 0 auto;
+	padding: 0px 0px 0px 30px;
+}
+
+/* Logo */
+
+#logo {
+	margin: 0;
+	padding: 0;
+	color: #003399;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-size: 3.8em;
+}
+
+#logo p {
+	margin: 0;
+	padding: 0px 0 0 2px;
+	font: bold 14px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #003399;
+} 
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 60px;
+	padding: 20px 0px 0px 0px;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 170px;
+	padding: 6px 5px 2px 5px;
+	border: 1px solid #DEDEDE;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #5D781D;
+}
+
+#search-submit {
+	width: 50px;
+	height: 22px;
+	border: none;
+	background: #B9B9B9;
+	color: #000000;
+}
+
+/* Menu */
+
+#menu {
+	width: 970px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+#menu ul {
+	margin: 0;
+	padding: 50px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	width: 130px;
+	height: 30px;
+	margin-right: 1px;
+	padding: 9px 0px 0px 0px;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+	padding-left: 0;
+}
+
+/* Page */
+
+#page {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+}
+
+#page-bgtop {
+	padding: 20px 0px;
+}
+/* Content */
+
+#content {
+	float: left;
+	width: 93%;
+	padding: 0px 0px 0px 30px;
+	
+}
+
+
+.post {
+	margin-bottom: 40px;
+	border-bottom: 1px dotted #B31B10;
+}
+
+.post .title {
+	height: 41px;
+	padding: 7px 0px 0px 10px;
+	letter-spacing: -.5px;
+}
+
+.post .title a {
+	color: #3E3530;
+	border: none;
+}
+
+.post .meta {
+	margin-bottom: 30px;
+	padding: 0px 30px 0px 30px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.post .meta .date {
+	float: left;
+}
+
+.post .meta .posted {
+	float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	padding: 0px 10px 20px 10px;
+	padding-bottom: 20px;
+	text-align: justify;
+    color: #807E7E;
+}
+
+.links {
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 240px;
+	margin: 0px;
+	padding: 0px 20px 0px 0px;
+	color: #787878;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	line-height: 35px;
+	border-bottom: 1px dotted #074391;
+	margin: 0px 20px;
+	border-left: none;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	padding-left: 30px;
+	letter-spacing: -.5px;
+	font-size: 1.8em;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 30px 20px 30px;
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+	color: #807E7E;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #5D781D;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	background: #ffffff;
+	border-top: 10px solid #00CC99;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url('images/logo.gif');
+	background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: bold;
+	font-size: 9px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #003399;
+}
+
+#footer img{
+ float: right;
+ border: none;
+ margin: 0;
+ padding: 0;
+ text-align: left;
+}
+
+
+
+footer a {
+	color: #8A8A8A;
+}
+
+#inv-form{
+cursor:pointer;
+   display:block;
+   margin: 0 auto;
+   text-align:left;
+}
+#inv-form fieldset{
+width: 50%;
+background: white;
+padding-bottom: 20px;
+}
+#inv-form select{
+width: 250px;
+color: #003399;
+}
+#inv-form label{
+float: left;
+width: 100px;
+color: #003399;
+}
+#inv-form dt{
+padding-left: 8px;
+padding-right: 8px;
+}
+#inv-form input{
+width: 250px;
+}
+
+#inv-form textarea{
+width: 250px;
+}
+#inv-form .button{
+width: 100px;
+background: #074391;
+color: #FFFFFF;
+margin-left:100px;
+}
+#inv-form select{
+
+color: #A19D9A;
+}
+#search, #listado {
+background: #ffffff;
+padding: 3px;
+width: 250px;
+border: 1px solid #999;
+font-family: verdana; arial, sans-serif;
+font-size: 12px;
+}
+#hint ul {
+  padding: 3px; 
+  width: 250px; 
+  border: 1px solid #999; 
+  font-family: verdana; arial, sans-serif; 
+  font-size: 12px;
+  list-style-type: none; 
+  margin: 5px 0 0 0;
+  background: white;
+}
+
+#hint li {
+	margin: 0 0 5px 0; 
+  cursor: default; 
+  color: black;
+}
+
+#hint li:hover{
+	background: #ffc;
+}
+
+
+#hint li ul {
+	margin: 0px 0px;
+	padding-bottom: 30px;
+}
+
+#hint li li {
+	line-height: 35px;
+	border-bottom: 1px dotted #074391;
+	margin: 0px 20px;
+	border-left: none;
+}
+
+#hint li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.validation-passed { border-color: blue; } /* campo valido */
+.validation-failed { border-color: red; } /* campo invalido */
+.validation-advice { color: #C00; font-size: 10px; } /* mensaje de error */
+
+/*para el desplegable*/
+
+
+
+
+/*para el menu superior*/
+#tabsE {
+      float:left;
+      width:100%;
+      background:none;
+      font-size:93%;
+      line-height:normal;
+      margin-top: 23px;	 
+      }
+    #tabsE ul {
+        margin:0;
+        padding:10px 10px 0 50px;
+        list-style:none;
+      }
+    #tabsE li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabsE a {
+      float:left;
+      background:url("imagenes/botonAzul.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabsE a span {
+      float:left;
+      display:block;
+      background:url("imagenes/botonAzul.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsE a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsE a:hover span {
+      color:#FFF;
+      }
+    #tabsE a:hover {
+      background-position:0% -42px;
+      }
+    #tabsE a:hover span {
+      background-position:100% -42px;
+      }
+
+        #tabsE #current a {
+                background-position:0% -42px;
+        }
+        #tabsE #current a span {
+                background-position:100% -42px;
+        }
+        
+/*- Menu Tabs 11--------------------------- */
+
+    #tabs11 {
+      float:left;
+      width:60%;
+      background:none;
+      font-size:93%;
+      line-height:normal;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      padding-left:120px;
+      }
+    #tabs11 ul {
+          margin:0;
+        padding:10px 10px 0 50px;
+        list-style:none;
+      }
+    #tabs11 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs11 a {
+      float:left;
+      background:url("imagenes/botonVerde.gif") no-repeat rigth top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+    }
+    #tabs11 a span {
+      float:left;
+      display:block;
+      background:url("imagenes/botonVerde.gif") no-repeat left top;      
+	  padding:5px 15px 4px 6px;
+      color:black
+    }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs11 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs11 a:hover span {
+      color:#FFF;
+      }
+    #tabs11 a:hover {
+      background-position:0% -40px;
+      }
+    #tabs11 a:hover span {
+      background-position:100% -42px;
+      }
+
+      #tabs11 #current a {
+              background-position:0% -40px;
+      }
+      #tabs11 #current a span {
+              background-position:100% -42px;
+      }
+        
+/*para el autocomplete*/
+.suggestionsBox {
+	position: relative;
+	left: 110px;
+	margin: 10px 0px 0px 0px;
+	width: 250px;
+	background-color: white;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 2px solid #000;
+	color: black;
+	}
+	
+	.suggestionList {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.suggestionList li {
+		
+		margin: 0px 0px 3px 0px;
+		padding: 3px;
+		cursor: pointer;
+		list-style: none;
+	}
+	
+	.suggestionList li:hover {
+		background-color: #8F190A;
+		color: white;
+	}
+  /*fin autocomplete*/
+  
+  /*para el edit in place  */
+  .editable input[type=submit] {
+  color: #F00;
+  font-weight: bold;
+  font-size: 9px;
+}
+.editable input[type=button] {
+  color: #0F0;
+  font-weight: bold;
+  }
+  /*fin edit in place */
+          

@@ -1,0 +1,47 @@
+tareas para la demana 20 de hasta 25 de junio del 2011
+	
+
+	-	tabla de escala
+		*	crear (yata)
+		*	mostrar en reporte. (YATA)
+		*	opcion de actualizar.
+
+	-	Configurar Permisos
+		*	control gerente. 
+		*	control administrativo.
+		*	control Registrador.
+		*	control Reportes.
+
+	-	acomodar el calendario
+
+	-	reportes.
+		*	agrear edad a los reportes por campo(yata)
+		*	generar conclusion.(YATA)
+
+	-	cambiar las  claves de bd y de usuario (YATA)
+		*	actualizar todas las claves encontrandas sistema (YATA)
+
+	-	colgar el sistema.
+		*	crear BD (YATa)
+		*	Configuar usuario y claves. (YATa)
+		*	proteger bd. (YATa)
+
+	
+tARAES SEMANA 27 hasta fin de ems
+	-	Analizar e implementar el ingreso de datos. hacerlo mas facil (ya esta) 
+
+	-	Configurar Permisos
+		*	control gerente. (en proceso) // hice hasta registrar campo
+		*	control administrativo.
+		*	control Registrador.
+		*	control Reportes. (en proceso) // ya esta pastel de distribucion
+
+	-	acomodar el calendario
+
+	-	tabla de escala
+		*	opcion de actualizar.
+	
+	-	Tratamiento.
+		*	acomodar el registro de tratamiento // en proceso
+		*	acomodar el reporte de Tratamiento // ya esta
+		
